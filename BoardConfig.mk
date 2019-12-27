@@ -144,9 +144,6 @@ TARGET_KERNEL_CONFIG := X00R_defconfig
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/asus/X00R
 
-# Lights
-TARGET_PROVIDES_LIBLIGHT := true
-
 # Malloc
 MALLOC_SVELTE := true
 
