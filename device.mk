@@ -402,8 +402,7 @@ PRODUCT_PACKAGES += \
 
 # VNDK-SP
 PRODUCT_PACKAGES += \
-    vndk_package \
-    libstdc++.vendor
+    vndk-sp
 
 # Wallpapers
 PRODUCT_PACKAGES += \
