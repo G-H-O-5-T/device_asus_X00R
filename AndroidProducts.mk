@@ -12,10 +12,12 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+LOCAL_PATH := device/asus/X00R
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_X00R.mk
+    $(LOCAL_PATH)/freaky_X00R.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_X00R-user \
-    aosp_X00R-userdebug
+    freaky_X00R-user \
+    freaky_X00R-userdebug \
+    freaky_X00R-eng

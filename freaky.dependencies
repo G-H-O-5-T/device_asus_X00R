@@ -1,0 +1,18 @@
+[
+  {
+    "repository":  "kernel_asus_X00R",
+    "target_path": "kernel/asus/X00R",
+    "branch": "still_alive"
+  },
+  {
+    "repository":  "vendor_asus_X00R",
+    "target_path": "vendor/asus/X00R",
+    "branch": "still_alive"
+  },
+  {
+    "repository": "packages_apps_PixelLiveWallpaper", 
+    "target_path": "packages/apps/PixelLiveWallpaper", 
+    "branch": "ten", 
+    "remote": "pixel-gitlab"
+  }
+]
