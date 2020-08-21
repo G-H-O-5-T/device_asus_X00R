@@ -210,7 +210,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.asus_X00P
+    lights.msm8937
 
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-impl \
