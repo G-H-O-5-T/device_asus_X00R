@@ -22,8 +22,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 
-# Inherit some common Freaky OS stuff.
-$(call inherit-product, vendor/freaky/config/common_full_phone.mk)
+# Inherit some common lineage OS stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 720
 CUSTOM_BUILD_TYPE := OFFICIAL
 
@@ -32,7 +32,7 @@ $(call inherit-product, $(DEVICE_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := X00R
-PRODUCT_NAME := freaky_X00R
+PRODUCT_NAME := lineage_X00R
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := ASUS_X00RD
 PRODUCT_MANUFACTURER := asus

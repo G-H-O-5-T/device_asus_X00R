@@ -15,9 +15,9 @@
 LOCAL_PATH := device/asus/X00R
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_PATH)/freaky_X00R.mk
+    $(LOCAL_PATH)/lineage_X00R.mk
 
 COMMON_LUNCH_CHOICES := \
-    freaky_X00R-user \
-    freaky_X00R-userdebug \
-    freaky_X00R-eng
+    lineage_X00R-user \
+    lineage_X00R-userdebug \
+    lineage_X00R-eng
